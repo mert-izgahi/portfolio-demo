@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap w/ Vite</title>
+        <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+      <script type="module" crossorigin src="/assets/index-C3NvMYiZ.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-I8UtGee7.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div class="navbar navbar-expand-md bg-primary navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="data:image/png;base64,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" alt="logo" />
+                </a>
+
+                <div class="d-flex order-md-2">
+                    <button
+                        class="btn btn-outline-light d-md-none"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                    >
+                        <i class="bi bi-list"></i>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End of Navbar -->
+
+        <!-- HEADER -->
+        <header>
+            <div class="container" data-aos="fade-up">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-center"
+                    class="avatar-container bg-gradient-primary mx-auto mb-3"
+                >
+                    <img
+                        src="/assets/Avatar-DF2hkqt-.png"
+                        alt="avatar"
+                        class="avatar"
+                    />
+                </div>
+                <h1 class="display-1 text-center fw-bold mb-5">
+                    I do code and <br />
+                    make <span class="gradient-text">content about it!</span>
+                </h1>
+
+                <p class="lead text-muted text-center mb-5">
+                    I am a seasoned full-stack software engineer with over 8
+                    years of professional experience, specializing in backend
+                    development. My expertise lies in crafting robust and
+                    scalable SaaS-based architectures on the Amazon AWS
+                    platform.
+                </p>
+
+                <div class="d-flex justify-content-center gap-4">
+                    <a href="#" class="btn btn-lg icon-btn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="#" class="btn btn-lg icon-btn">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="#" class="btn btn-lg icon-btn">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER -->
+
+        <!-- TOOLS -->
+        <section class="py-5 mt-5">
+            <div class="container">
+                <h2 class="text-center mb-5">My Tools</h2>
+
+                <div
+                    id="tools"
+                    class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
+                >
+                    <div class="col" data-aos="fade-left">
+                        <div
+                            class="card h-100 border border-primary experience-card"
+                        >
+                            <div class="card-header p-3">
+                                <img
+                                    src="data:image/png;base64,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"
+                                    alt=""
+                                    class="experience-icon"
+                                />
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Javascript Developer</h5>
+                                <p class="card-text text-muted">
+                                    I am a javascript developer with over 8
+                                    years of professional experience,
+                                    specializing in Node.js. My expertise lies
+                                    in crafting robust and scalable SaaS-based
+                                    architectures on the Amazon AWS platform.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END OF TOOLS -->
+
+        <!-- PROJECTS -->
+        <section class="py-5 mt-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Projects</h2>
+
+                <div id="projects" class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div
+                            class="card h-100 border border-primary experience-card"
+                        >
+                            <div class="card-header p-0">
+                                <img
+                                    src="https://cdn.dribbble.com/userupload/12312985/file/still-3d977bccdb3038b39ef6347dee8d66fa.png?resize=800x600&vertical=center"
+                                    alt=""
+                                    class="card-img-top"
+                                />
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title">Outer Area</h5>
+                                    <a href="" class="nav-link">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                                <p class="card-text text-muted">
+                                    Full stack application. Built with ReactJS,
+                                    NodeJS and MongoDB.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END OF PROJECTS -->
+
+        <!-- EXPERIENCS -->
+        <section class="py-5 mt-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Experiences</h2>
+
+                <ul id="experiences" class="list-group">
+                    <li class="list-group-item border-primary">
+                        <div class="d-flex align-items-start">
+                            <i class="bi bi-google fs-5"></i>
+                            <div class="ms-3">
+                                <h5>Google</h5>
+                                <p class="text-muted">Software Engineer</p>
+                            </div>
+                        </div>
+                        <p>
+                            I am a javascript developer with over 8 years of
+                            professional experience, specializing in Node.js.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- END OF EXPERIENCS -->
+
+        <!-- FOOTER -->
+        <footer class="py-5 mt-5">
+            <div class="container">
+                <h5 class="text-left mb-4">Contact</h5>
+                <p class="text-muted">
+                    I am always open to discussing new projects, creative ideas
+                    or opportunities to be part of your visions.
+                </p>
+
+                <div class="d-flex mb-3">
+                    <i class="bi bi-envelope-fill"></i>
+                    <p class="text-muted mb-0 ms-2">kKXwz@example.com</p>
+                </div>
+
+                <div class="d-flex">
+                    <i class="bi bi-telephone-fill"></i>
+                    <p class="text-muted mb-0 ms-2">+1 (123) 456-7890</p>
+                </div>
+            </div>
+        </footer>
+        <!-- END OF FOOTER -->
+    </body>
+</html>

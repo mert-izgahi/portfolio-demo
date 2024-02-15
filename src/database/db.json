@@ -1,0 +1,86 @@
+{
+    "tools": [
+        {
+            "id": 1,
+            "title": "Javascript",
+            "icon": "../assets/javascript.png",
+            "description": "I am a javascript developer with over 8 years of professional experience, specializing in Node.js. My expertise lies in crafting robust and scalable SaaS-based architectures on the Amazon AWS platform."
+        },
+        {
+            "id": 2,
+            "title": "NodeJs",
+            "icon": "../assets/nodejs.png",
+            "description": "I have experience with Node.js, and I am passionate about the JavaScript ecosystem. I'm a full-stack developer, and I'm always looking for ways to improve my skills."
+        },
+        {
+            "id": 3,
+            "title": "HTML",
+            "icon": "../assets/html.png",
+            "description": "I started learning HTML and CSS in 2019. I have a strong foundation in HTML and CSS, and I'm always looking for ways to improve my skills."
+        },
+        {
+            "id": 4,
+            "title": "CSS",
+            "icon": "../assets/css.png",
+            "description": "CSS is very powerful. I have experience with CSS, and I am passionate about the JavaScript ecosystem. I'm a full-stack developer, and I'm always looking for ways to improve my skills."
+        },
+        {
+            "id": 5,
+            "title": "ReactJs",
+            "icon": "../assets/reactjs.png",
+            "description": "With React JS, I have a strong foundation in JavaScript. I'm always looking for ways to improve my skills."
+        }
+    ],
+
+    "projects": [
+        {
+            "id": 1,
+            "title": "OuterArea",
+            "url": "",
+            "image": "https://cdn.dribbble.com/userupload/12312985/file/still-3d977bccdb3038b39ef6347dee8d66fa.png?resize=800x600&vertical=center",
+            "description": "Full Stack Project, Created with React.js and Node.js"
+        },
+        {
+            "id": 2,
+            "title": "G-HUB",
+            "url": "",
+            "image": "https://cdn.dribbble.com/userupload/4446053/file/original-7fb4846ca422532515109913097be6ec.jpg?resize=640x480&vertical=center",
+            "description": "With Vite and vanilla JavaScript, Bootstrap, and SCSS"
+        },
+        {
+            "id": 3,
+            "title": "Dashboard",
+            "url": "",
+            "image": "https://cdn.dribbble.com/users/946070/screenshots/18212615/media/4e9dcc94c938a45325c787968ab9e143.png?resize=640x480&vertical=center",
+            "description": "Built with React.js, Material-UI, and SCSS"
+        },
+        {
+            "id": 4,
+            "title": "FitKeep",
+            "url": "",
+            "image": "https://cdn.dribbble.com/userupload/12253113/file/still-2bc58b4ad23887c393ffa830675081c9.png?resize=640x480&vertical=center",
+            "description": "Full Stack Project, Created with React.js and Node.js"
+        }
+    ],
+
+    "experiences": [
+        {
+            "id": 1,
+            "icon": "<i class='bi bi-google fs-5'></i>",
+            "company": "Google",
+            "jobTitle": "Software Engineer",
+            "location": "Mountain View, CA",
+            "date": "2022 - Present",
+            "description": "I am a software engineer with 5 years of experience. I am a full-stack developer, and I am always looking for ways to improve my skills."
+        },
+        {
+            "id": 2,
+            "icon": "<i class='bi bi-microsoft fs-5'></i>",
+            "company": "Microsoft",
+            "jobTitle": "Software Engineer",
+            "location": "Mountain View, CA",
+            "date": "2022 - Present",
+            "description": "I am a software engineer with 5 years of experience. I am a full-stack developer, and I am always looking for ways to improve my skills."
+        }
+    ]
+}

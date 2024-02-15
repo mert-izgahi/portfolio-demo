@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap w/ Vite</title>
+        <script type="module" src="./js/main.js"></script>
+        <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div class="navbar navbar-expand-md bg-primary navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/logo.png" alt="logo" />
+                </a>
+
+                <div class="d-flex order-md-2">
+                    <button
+                        class="btn btn-outline-light d-md-none"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                    >
+                        <i class="bi bi-list"></i>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End of Navbar -->
+
+        <!-- HEADER -->
+        <header>
+            <div class="container" data-aos="fade-up">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="top-center"
+                    class="avatar-container bg-gradient-primary mx-auto mb-3"
+                >
+                    <img
+                        src="./assets/Avatar.png"
+                        alt="avatar"
+                        class="avatar"
+                    />
+                </div>
+                <h1 class="display-1 text-center fw-bold mb-5">
+                    I do code and <br />
+                    make <span class="gradient-text">content about it!</span>
+                </h1>
+
+                <p class="lead text-muted text-center mb-5">
+                    I am a seasoned full-stack software engineer with over 8
+                    years of professional experience, specializing in backend
+                    development. My expertise lies in crafting robust and
+                    scalable SaaS-based architectures on the Amazon AWS
+                    platform.
+                </p>
+
+                <div class="d-flex justify-content-center gap-4">
+                    <a href="#" class="btn btn-lg icon-btn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="#" class="btn btn-lg icon-btn">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="#" class="btn btn-lg icon-btn">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER -->
+
+        <!-- TOOLS -->
+        <section class="py-5 mt-5">
+            <div class="container">
+                <h2 class="text-center mb-5">My Tools</h2>
+
+                <div
+                    id="tools"
+                    class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
+                >
+                    <div class="col" data-aos="fade-left">
+                        <div
+                            class="card h-100 border border-primary experience-card"
+                        >
+                            <div class="card-header p-3">
+                                <img
+                                    src="./assets/javascript.png"
+                                    alt=""
+                                    class="experience-icon"
+                                />
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Javascript Developer</h5>
+                                <p class="card-text text-muted">
+                                    I am a javascript developer with over 8
+                                    years of professional experience,
+                                    specializing in Node.js. My expertise lies
+                                    in crafting robust and scalable SaaS-based
+                                    architectures on the Amazon AWS platform.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END OF TOOLS -->
+
+        <!-- PROJECTS -->
+        <section class="py-5 mt-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Projects</h2>
+
+                <div id="projects" class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div
+                            class="card h-100 border border-primary experience-card"
+                        >
+                            <div class="card-header p-0">
+                                <img
+                                    src="https://cdn.dribbble.com/userupload/12312985/file/still-3d977bccdb3038b39ef6347dee8d66fa.png?resize=800x600&vertical=center"
+                                    alt=""
+                                    class="card-img-top"
+                                />
+                            </div>
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title">Outer Area</h5>
+                                    <a href="" class="nav-link">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                                <p class="card-text text-muted">
+                                    Full stack application. Built with ReactJS,
+                                    NodeJS and MongoDB.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END OF PROJECTS -->
+
+        <!-- EXPERIENCS -->
+        <section class="py-5 mt-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Experiences</h2>
+
+                <ul id="experiences" class="list-group">
+                    <li class="list-group-item border-primary">
+                        <div class="d-flex align-items-start">
+                            <i class="bi bi-google fs-5"></i>
+                            <div class="ms-3">
+                                <h5>Google</h5>
+                                <p class="text-muted">Software Engineer</p>
+                            </div>
+                        </div>
+                        <p>
+                            I am a javascript developer with over 8 years of
+                            professional experience, specializing in Node.js.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- END OF EXPERIENCS -->
+
+        <!-- FOOTER -->
+        <footer class="py-5 mt-5">
+            <div class="container">
+                <h5 class="text-left mb-4">Contact</h5>
+                <p class="text-muted">
+                    I am always open to discussing new projects, creative ideas
+                    or opportunities to be part of your visions.
+                </p>
+
+                <div class="d-flex mb-3">
+                    <i class="bi bi-envelope-fill"></i>
+                    <p class="text-muted mb-0 ms-2">kKXwz@example.com</p>
+                </div>
+
+                <div class="d-flex">
+                    <i class="bi bi-telephone-fill"></i>
+                    <p class="text-muted mb-0 ms-2">+1 (123) 456-7890</p>
+                </div>
+            </div>
+        </footer>
+        <!-- END OF FOOTER -->
+    </body>
+</html>
